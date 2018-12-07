@@ -1,0 +1,26 @@
+.rpt-table{
+	width:80%;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+
+.rpt-center{
+	text-align: center;
+}
+td, th{
+	font-family: verdana, tahoma;
+	color: black;
+	font-size: 12px;
+	font-weight: normal;
+}
+table.rpt-table th{
+	border: 1px solid gray;
+}
+
+table.rpt-table tr.rpt-body td{
+	border-bottom: 1px dotted gray;
+}

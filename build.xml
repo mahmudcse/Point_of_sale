@@ -1,0 +1,28 @@
+<project name="POS" default="deploy" basedir=".">
+  <description>
+    simple example build file
+  </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="D:/git/posrepo"/>
+  <property name="build" value="pos"/>
+  <property name="dist" location="c:/wamp64/www"/>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${dist}/${build}"/>
+  </target>
+
+
+	<target name="deploy" depends="init" description="deploy the source " >
+		<copy todir="${dist}/${build}">
+			<fileset dir="${src}">
+			</fileset>
+		</copy>
+	</target>
+
+  <target name="clean" description="clean up">
+    <delete dir="${dist}/${build}"/>
+  </target>
+</project>
