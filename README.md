@@ -1,18 +1,11 @@
-# POSPlus by NetSoft Limited #
+# Point of sale by NetSoft Limited #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+It is a project for super shop management. It includes almost everything a super shop needs. 
+Accounting, 
+product add, 
+product sale, 
+installment, 
+product transfer to another branch, 
+Monthly or required date range report were some of it's main features.
 
-## Current issues ##
-1. Inventory Integration
-2. Company sub-company concept
-3. ACL enhancement
-4. HTTPS access
 
-
-### List of clients ###
-
-* TR Electromart
-* Azad Footware
-* FCI
-* Mahisha
-* Loskor
