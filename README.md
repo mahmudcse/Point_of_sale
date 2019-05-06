@@ -1,4 +1,10 @@
-# Point of sale by NetSoft Limited #
+# Point of sale #
+
+*HTML
+*CSS (BOOTSTRAP)
+*PHP (CODEIGNITER)
+*MYSQL
+*JAVASCRIPT (JQUERY)
 
 It is a project for super shop management. It includes almost everything a super shop needs. 
 Accounting, 
