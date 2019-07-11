@@ -1,3 +1,5 @@
+**For copyright issue, this project cannot be uploaded to github**
+
 # Point of sale #
 
 *HTML
