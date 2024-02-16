@@ -1,0 +1,24 @@
+body{
+	font:10px normal Verdana;
+	margin:0px;
+}
+td{
+	font-size: 12px;
+	font-family: verdana;
+}
+#popup{
+	position: absolute;
+	visibility: hidden;
+	/*overflow: hidden;*/
+	background-color: LightSteelBlue;
+	border:1px solid #333;
+	padding:8px;
+	width: 351px;
+	height: 300px;
+	margin: 100px;
+}
+#_title{
+	color:WHITE;
+	padding: 1px;
+	font-size:12px;
+}
